@@ -6,12 +6,16 @@
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
-  background: #eee;
-  padding: 0 16px;
+  background-image: url('./images/bg.png');
+  width: 100vw;
+  height: 100vh;
+  
 }
 
 header {
+  text-align: center;
   background: #424BFB;
   background: -webkit-linear-gradient(left, #424BFB, #16A985);
   margin: auto -16px;
@@ -21,7 +25,6 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
@@ -72,7 +75,7 @@ footer p {
   transition: all .2s;
 }
 
-form {
+form{
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
@@ -81,8 +84,8 @@ form {
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
-form input,
-form textarea {
+
+form input{
   width: 100%;
   border: none;
   padding: 4px;
@@ -91,6 +94,17 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
+form textarea {
+  transition: .2s;
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
 form button {
   position: absolute;
   right: 18px;

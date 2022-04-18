@@ -39,15 +39,15 @@ function CreateArea(props) {
         name="content"
         onChange= {handleChange}
         value={note.content}
-        placeholder="something you'll never forget"
+        placeholder="write something you don't want to forget"
         rows="3"
-        />
-        <button 
-        className="button-animate"
-        onClick={submitNote}
-        >
-          <i class="fa-solid fa-plus"></i> 
-        </button>
+        /> 
+          <button 
+          className="button-animate"
+          onClick={submitNote}
+          >
+            <i class="fa-solid fa-plus"></i> 
+          </button>
       </form>
     </div>
   );
